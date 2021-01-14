@@ -19,7 +19,7 @@ public class Main {
 	public static Connection openConnection() {
 
 		Connection connection = null;
-//git test
+
 		final Properties prop = loadFile();
 
 		final String driver = prop.getProperty("driver");
